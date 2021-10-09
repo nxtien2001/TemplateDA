@@ -26,9 +26,9 @@
                 <div class="modal-body"> Widget settings form goes here </div>
             </div>
             <div class="clearfix"></div>
-            <div class="content">
-                @yield('content')
-            </div>
+            <!-- content -->
+            @yield('content')
+            <!-- end content -->
         </div>
         <!-- BEGIN CHAT -->
 

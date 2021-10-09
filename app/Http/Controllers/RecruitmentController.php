@@ -10,9 +10,9 @@ class RecruitmentController extends Controller
     {
         return view('admin.recruitment.index');
     }
-    public function create()
+    public function view()
     {
-        return view('admin.recruitment.create');
+        return view('admin.recruitment.view');
     }
     public function edit()
     {

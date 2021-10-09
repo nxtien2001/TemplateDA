@@ -21,27 +21,19 @@
                 <a href="javascript:;"> <i class="material-icons">airplay</i> <span class="title">Danh mục</span> <span class=" arrow"></span> </a>
                 <ul class="sub-menu">
                     <li> <a href="{{route('categories.index')}}">Dánh sách</a> </li>
-                    <li> <a href="{{route('categories.index')}}">Thêm mới</a></li>
+                    <li> <a href="{{route('categories.create')}}">Thêm mới</a></li>
                 </ul>
             </li>
             <li>
                 <a href="javascript:;"> <i class="material-icons">invert_colors</i> <span class="title">Nhà tuyển dụng</span> <span class=" arrow"></span> </a>
                 <ul class="sub-menu">
                     <li> <a href="{{route('recruitments.index')}}">Dánh sách</a> </li>
-                    <li> <a href="{{route('recruitments.index')}}">Thêm mới</a></li>
                 </ul>
             </li>
             <li>
                 <a href="javascript:;"> <i class="material-icons">flip</i><span class="title"> Tin tuyển dụng </span> <span class=" arrow"></span> </a>
                 <ul class="sub-menu">
                     <li> <a href="{{route('blogs.index')}}"> Danh sách </a> </li>
-                </ul>
-            </li>
-            <li>
-                <a href="javascript:;"> <i class="material-icons">flip</i><span class="title"> Slide quảng cáo </span> <span class=" arrow"></span> </a>
-                <ul class="sub-menu">
-                    <li> <a href="{{route('blogs.index')}}"> Danh sách </a> </li>
-                    <li> <a href="{{route('blogs.index')}}"> Vai trò </a> </li>
                 </ul>
             </li>
             <li>
@@ -52,14 +44,14 @@
                 <a href="javascript:;"> <i class="material-icons">flip</i><span class="title"> Slide quảng cáo </span> <span class=" arrow"></span> </a>
                 <ul class="sub-menu">
                     <li> <a href="{{route('ads.index')}}"> Danh sách </a> </li>
-                    <li> <a href="{{route('ads.index')}}"> Vai trò </a> </li>
+                    <li> <a href="{{route('ads.create')}}"> Thêm mới </a> </li>
                 </ul>
             </li>
             <li>
                 <a href="javascript:;"> <i class="material-icons">flip</i><span class="title"> Nhân viên </span> <span class=" arrow"></span> </a>
                 <ul class="sub-menu">
                     <li> <a href="{{route('users.index')}}"> Danh sách </a> </li>
-                    <li> <a href="{{route('users.index')}}"> Vai trò </a> </li>
+                    <li> <a href="{{route('users.create')}}"> Thêm mới</a> </li>
                 </ul>
             </li>
         </ul>
