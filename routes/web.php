@@ -58,7 +58,7 @@ Route::group([
     'as' => 'ads.',
 ], function () {
     Route::get('/', [SlideController::class, 'index'])->name('index');
-    Route::get('/create', [SlideController::class, 'view'])->name('create');
+    Route::get('/create', [SlideController::class, 'create'])->name('create');
     Route::get('/edit', [SlideController::class, 'edit'])->name('edit');
 });
 //Quản lý nhân viên

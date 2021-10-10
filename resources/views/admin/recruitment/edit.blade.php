@@ -1,5 +1,5 @@
 @extends('index')
-@section('title','Quản lý nhà tuyển dụng')
+@section('title','Cập nhật nhà tuyển dụng')
 @section('content')
 <div class="content">
     <ul class="breadcrumb">
